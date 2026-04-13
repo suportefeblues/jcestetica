@@ -58,7 +58,10 @@ body {
 
 .hero-texto {
     flex: 1;
-}48px;
+}
+
+.hero-texto h1 {
+    font-size: 48px;
     color: #8b5a5a;
     margin: 0 0 15px 0;
     font-weight: 700;
@@ -68,10 +71,7 @@ body {
 .hero-texto h2 {
     font-size: 20px;
     color: #666;
-    font-weight: 5
-    font-size: 24px;
-    color: #888;
-    font-weight: 400;
+    font-weight: 500;
     margin: 0 0 25px 0;
     text-align: left;
 }
@@ -174,8 +174,8 @@ h3 {
 .doutora-foto {
     width: 350px;
     height: auto;
-    border-radius: 5px 40px rgba(184, 122, 122, 0.2
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    box-shadow: 0 15px 40px rgba(184, 122, 122, 0.2);
 }
 
 .sobre-texto h3 {
@@ -190,12 +190,12 @@ h3 {
     margin: 10px 0 20px 0;
 }
 
-.sobre-texto p {left;
+.sobre-texto p {
+    text-align: left;
     color: #444;
     line-height: 1.8;
     margin-bottom: 15px;
-    font-weight: 500
-    margin-bottom: 15px;
+    font-weight: 500;
 }
 
 /* SERVIÇOS */
@@ -227,9 +227,9 @@ h3 {
     font-size: 20px;
 }
 
-.card p {555;
-    font-weight: 500
-    color: #666;
+.card p {
+    color: #555;
+    font-weight: 500;
 }
 
 /* CUIDADOS */
@@ -252,9 +252,9 @@ h3 {
     position: relative;
     max-width: 900px;
     margin: 0 auto 40px;
-    overflow: hidd20px 50px rgba(184, 122, 122, 0.2
+    overflow: hidden;
     border-radius: 15px;
-    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+    box-shadow: 0 20px 50px rgba(184, 122, 122, 0.2);
 }
 
 .galeria-slide {
@@ -370,11 +370,11 @@ h3 {
     text-align: center;
     background: linear-gradient(135deg, #f3e7e3 0%, #f9f1f0 100%);
 }
-6px;
+
+.contato p {
+    font-size: 16px;
     color: #555;
-    font-weight: 500
-    font-size: 18px;
-    color: #555;
+    font-weight: 500;
 }
 
 /* RESPONSIVO */
