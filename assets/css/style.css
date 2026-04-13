@@ -60,18 +60,19 @@ body {
     width: 100%;
 }
 
-.menu-avaliacao {
+.menu-cta {
     background: linear-gradient(135deg, #b87a7a 0%, #a86468 100%) !important;
     color: #fff !important;
     box-shadow: 0 8px 20px rgba(184, 122, 122, 0.25);
     transition: all 0.3s ease;
+    padding: 10px 25px !important;
 }
 
-.menu-avaliacao::before {
+.menu-cta::before {
     display: none !important;
 }
 
-.menu-avaliacao:hover {
+.menu-cta:hover {
     background: linear-gradient(135deg, #a06666 0%, #905555 100%) !important;
     box-shadow: 0 12px 30px rgba(184, 122, 122, 0.35);
     transform: translateY(-2px);
@@ -181,6 +182,18 @@ body {
     background: linear-gradient(135deg, #a06666 0%, #905555 100%);
     transform: translateY(-2px);
     box-shadow: 0 15px 40px rgba(184, 122, 122, 0.35);
+}
+
+.btn-contact {
+    padding: 18px 50px;
+    font-size: 16px;
+    box-shadow: 0 15px 45px rgba(184, 122, 122, 0.3);
+    text-transform: uppercase;
+}
+
+.btn-contact:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 25px 60px rgba(184, 122, 122, 0.45);
 }
 
 .btn-secondary {
@@ -498,9 +511,9 @@ h3 {
         padding: 8px 16px;
     }
 
-    .menu-avaliacao {
-        font-size: 12px;
-        padding: 8px 14px;
+    .menu-cta {
+        font-size: 13px;
+        padding: 8px 16px !important;
     }
 
     .hero {
