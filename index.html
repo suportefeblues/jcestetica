@@ -20,18 +20,40 @@
 
     <!-- HERO -->
     <section class="hero">
-        <h1>Beleza, Saúde e Bem-estar</h1>
-        <p>Tratamentos estéticos avançados com excelência e cuidado.</p>
-        <a href="#contato" class="btn">Agendar Consulta</a>
+        <div class="hero-container">
+            <div class="hero-texto">
+                <h1>Beleza, Saúde e Bem-estar</h1>
+                <h2>Transformação com excelência e cuidado</h2>
+                <p>Tratamentos estéticos avançados realizados com técnicas de alta tecnologia e atenção personalizada. Na JC Estética, sua beleza é nossa prioridade.</p>
+                <a href="#contato" class="btn">Agendar Consulta</a>
+            </div>
+            <div class="hero-imagem">
+                <img src="assets/img/cuidados.jpeg" alt="Tratamentos estéticos avançados">
+            </div>
+        </div>
     </section>
 
     <!-- SOBRE -->
     <section id="sobre" class="sobre">
         <h2>Sobre a JC Estética</h2>
-        <p>
-            A JC Estética Avançada oferece tratamentos modernos, personalizados e realizados com
-            equipamentos de alta tecnologia para realçar sua beleza natural.
-        </p>
+        <div class="sobre-container">
+            <img src="assets/img/doutora.png" alt="Dra. Jacqueline Chaves" class="doutora-foto">
+            <div class="sobre-texto">
+                <h3>Dra. Jacqueline Chaves</h3>
+                <p class="anos-exp">18 anos de experiência em Enfermagem</p>
+                <p>
+                    Formada desde 2008, a Dra. Jacqueline Chaves é especialista em estética avançada, 
+                    combinando seus conhecimentos sólidos em enfermagem com as mais modernas técnicas de 
+                    tratamentos estéticos. Com dedicação ao bem-estar e foco na excelência, ela oferece 
+                    procedimentos personalizados que respeitam a individualidade de cada cliente.
+                </p>
+                <p>
+                    Sua abordagem profissional e humanizada garante conforto, segurança e resultados 
+                    surpreendentes. Na JC Estética Avançada, você encontra competência, dedicação e 
+                    um ambiente acolhedor para transformar sua autoestima.
+                </p>
+            </div>
+        </div>
     </section>
 
     <!-- SERVIÇOS -->
@@ -53,6 +75,63 @@
                 <h3>Tratamentos Corporais</h3>
                 <p>Protocolos personalizados para redução de medidas e firmeza.</p>
             </div>
+        </div>
+    </section>
+
+    <!-- GALERIA / RESULTADOS -->
+    <section class="galeria">
+        <h2>Tratamentos e Resultados</h2>
+        <p class="galeria-desc">Veja alguns dos nossos procedimentos especializados</p>
+        
+        <div class="galeria-container">
+            <div class="galeria-slide">
+                <img src="assets/img/doutora_injecao.jpeg" alt="Procedimento de injeção">
+                <div class="galeria-info">
+                    <h3>Harmonização Facial</h3>
+                    <p>Procedimentos precisos com a expertise da Dra. Jacqueline</p>
+                </div>
+            </div>
+            <div class="galeria-slide">
+                <img src="assets/img/doutora_lado.jpeg" alt="Dra. Jacqueline em ação">
+                <div class="galeria-info">
+                    <h3>Experiência Profissional</h3>
+                    <p>18 anos de dedicação ao cuidado estético</p>
+                </div>
+            </div>
+            <div class="galeria-slide">
+                <img src="assets/img/cuidados.jpeg" alt="Cuidados com pele">
+                <div class="galeria-info">
+                    <h3>Cuidados Especializados</h3>
+                    <p>Orientações personalizadas para sua rotina de beleza</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="galeria-controls">
+            <button class="galeria-prev">❮</button>
+            <div class="galeria-dots">
+                <span class="dot active" onclick="currentSlide(0)"></span>
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
+            <button class="galeria-next">❯</button>
+        </div>
+    </section>
+
+    <!-- ANAMNESE -->
+    <section class="anamnese">
+        <div class="anamnese-container">
+            <h2>Formulário de Anamnese</h2>
+            <p>
+                Para melhor prepararmos seu atendimento e garantir a excelência do tratamento, pedimos que 
+                preencha nosso formulário de anamnese. Este formulário nos ajuda a conhecer seu histórico de saúde, 
+                alergias, medicações em uso e objetivos estéticos.
+            </p>
+            <p>
+                Com essas informações, a Dra. Jacqueline poderá personalizar seu tratamento de forma segura e eficaz.
+            </p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSemm4hY5Dc1luQBgLJDF9Hu4O7K8NDfXl8UvArFujdhx9j8fw/viewform" 
+               target="_blank" class="btn btn-secondary">Preencher Anamnese</a>
         </div>
     </section>
 
