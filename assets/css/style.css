@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #fdf8f6;
+    color: #333;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.logo {
+    height: 80px;
+}
+
+.menu a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background: #f3e7e3;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #b87a7a;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    background: #b87a7a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* SEÇÕES */
+section {
+    padding: 80px 40px;
+}
+
+h2 {
+    text-align: center;
+    color: #b87a7a;
+}
+
+/* SERVIÇOS */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.card {
+    background: #fff;
+    padding: 30px;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00000010;
+    text-align: center;
+}
