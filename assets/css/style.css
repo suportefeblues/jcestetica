@@ -25,19 +25,59 @@ body {
 
 .menu {
     display: flex;
-    gap: 30px;
+    gap: 10px;
 }
 
 .menu a {
     text-decoration: none;
-    color: #b87a7a;
+    color: #7a5f5f;
     font-weight: 600;
-    transition: color 0.3s ease;
+    transition: all 0.3s ease;
+    padding: 10px 20px;
+    border-radius: 6px;
+    position: relative;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+}
+
+.menu a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #b87a7a, #d4a5a5);
+    transition: width 0.4s ease;
 }
 
 .menu a:hover {
-    color: #d4a5a5;
+    color: #5a3d3d;
+    background: rgba(184, 122, 122, 0.08);
 }
+
+.menu a:hover::before {
+    width: 100%;
+}
+
+.menu-avaliacao {
+    background: linear-gradient(135deg, #b87a7a 0%, #a86468 100%) !important;
+    color: #fff !important;
+    box-shadow: 0 8px 20px rgba(184, 122, 122, 0.25);
+    transition: all 0.3s ease;
+}
+
+.menu-avaliacao::before {
+    display: none !important;
+}
+
+.menu-avaliacao:hover {
+    background: linear-gradient(135deg, #a06666 0%, #905555 100%) !important;
+    box-shadow: 0 12px 30px rgba(184, 122, 122, 0.35);
+    transform: translateY(-2px);
+}
+
+
 
 /* HERO */
 .hero {
@@ -144,12 +184,15 @@ body {
 }
 
 .btn-secondary {
-    background: #888;
+    background: linear-gradient(135deg, #b87a7a 0%, #a86468 100%);
     margin-top: 20px;
+    box-shadow: 0 10px 30px rgba(184, 122, 122, 0.25);
 }
 
 .btn-secondary:hover {
-    background: #666;
+    background: linear-gradient(135deg, #a06666 0%, #905555 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 15px 40px rgba(184, 122, 122, 0.35);
 }
 
 /* ANAMNESE */
@@ -445,13 +488,19 @@ h3 {
     }
 
     .menu {
-        gap: 12px;
+        gap: 8px;
         flex-wrap: wrap;
         justify-content: center;
     }
 
     .menu a {
         font-size: 13px;
+        padding: 8px 16px;
+    }
+
+    .menu-avaliacao {
+        font-size: 12px;
+        padding: 8px 14px;
     }
 
     .hero {
